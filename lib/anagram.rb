@@ -8,22 +8,22 @@ class Anagram
   end
 
   def match(anagrams)
+binding.pry
+  arr = []
+    anagrams.each do |i|
 
-  # arr = []
-  #   anagrams.each do |i|
-    #
-    binding.pry
-    #   split = i.split("").sort
-    #   word_split = self.word.split("").sort
-    #   if split == word_split
-    #     arr << i
-    #   else
-    #     arr = []
-    # #   if i == @word
-    # #     true
-    #   end
-    # end
-    # arr
+
+      split = i.split("").sort
+      word_split = self.word.split("").sort
+      if split == word_split
+        arr << i
+      else
+        arr = []
+    #   if i == @word
+    #     true
+      end
+    end
+    arr
   end
 
 
