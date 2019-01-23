@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(anagrams)
-    binding.pry
+    # binding.pry
   arr = []
     anagrams.each do |i|
     #
