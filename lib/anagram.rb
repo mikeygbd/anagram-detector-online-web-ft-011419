@@ -8,15 +8,15 @@ class Anagram
 
   def match(anagrams)
 
-    anagrams.each do |i|
-
-      split i.split("").sort
+    # anagrams.each do |i|
+    # 
+    #   split i.split("").sort
         binding.pry
-      if i == @word
-        true
-      end
-
-        end
+    #   if i == @word
+    #     true
+    #   end
+    # end
   end
+
 
 end
