@@ -13,14 +13,10 @@ class Anagram
     anagrams.each do |a|
       if @word.split("").sort == a.split("").sort
         arr << a
-      else
-        arr = []
-    #   if i == @word
-    #     true
+      # else
+      #   arr = []
       end
     end
     arr
   end
-
-
 end
