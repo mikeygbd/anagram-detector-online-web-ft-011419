@@ -7,11 +7,11 @@ class Anagram
   end
 
   def match(anagrams)
+    binding.pry
 
     # anagrams.each do |i|
     #
     #   split i.split("").sort
-        binding.pry
     #   if i == @word
     #     true
     #   end
