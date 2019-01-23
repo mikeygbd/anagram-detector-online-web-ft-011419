@@ -9,14 +9,14 @@ class Anagram
 
   def match(anagrams)
 # binding.pry
-  arr = []
+  array = []
     anagrams.each do |a|
       if @word.split("").sort == a.split("").sort
-        arr << a
+        array << a
       # else
       #   arr = []
       end
     end
-    arr
+    array
   end
 end
