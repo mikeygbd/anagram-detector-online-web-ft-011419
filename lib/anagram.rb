@@ -15,6 +15,8 @@ class Anagram
       word_split = self.word.split("").sort
       if split == word_split
         true
+      else
+        false
     #   if i == @word
     #     true
       end
