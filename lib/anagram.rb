@@ -17,8 +17,8 @@ class Anagram
         true
     #   if i == @word
     #     true
-    #   end
-    # end
+      end
+    end
   end
 
 
