@@ -7,8 +7,9 @@ class Anagram
   end
 
   def match(anagrams)
+    binding.pry
     anagrams.each do |i|
-      i.split("").sort
+      split i.split("").sort
       if i == @word
         true
       end
