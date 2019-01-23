@@ -10,13 +10,9 @@ class Anagram
   def match(anagrams)
 binding.pry
   arr = []
-    anagrams.each do |i|
-
-
-      split = i.split("").sort
-      word_split = self.word.split("").sort
-      if split == word_split
-        arr << i
+    anagrams.each do |a|
+      if @word.split("").sort == a.split("").sort
+        arr << a 
       else
         arr = []
     #   if i == @word
