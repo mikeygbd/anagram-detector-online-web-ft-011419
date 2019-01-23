@@ -8,19 +8,21 @@ class Anagram
 
   def match(anagrams)
     # binding.pry
-
+  arr = []
     anagrams.each do |i|
     #
+
       split = i.split("").sort
       word_split = self.word.split("").sort
       if split == word_split
-        true
+        arr << i
       else
-        false
+        arr = []
     #   if i == @word
     #     true
       end
     end
+    arr
   end
 
 
